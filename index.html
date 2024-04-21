@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Gunjan Choudhary</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="dropdown" id="menubar">
+        <div class="dropdown-container d-flex">
+          <button class="dropbtn flex-start">&#9776;</button>
+          <ul>
+            <li>
+              <b>Gunjan Choudhary</b>
+              <p class="text-dark">frontend developer</p>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="dropdown-content">
+            <li>
+              <a href="#about">
+                <i class="fa fa-user logo"></i><span>About</span></a
+              >
+            </li>
+            <li>
+              <a href="#Project"
+                ><i class="fa fa-file-text logo"></i><span>Project</span></a
+              >
+            </li>
+            <li>
+              <a href="#Education"
+                ><i class="fa fa-graduation-cap logo"></i
+                ><span>Education</span></a
+              >
+            </li>
+            <li>
+              <a href="#Contact"
+                ><i class="fa fa-envelope logo"></i><span>Contact</span></a
+              >
+            </li>
+            <li>
+              <a href="./protfolio.img/Modern_Simple_CV.pdf" target="_blank"
+                ><i class="fa fa-folder logo"></i> <span>Resume</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <nav>
+        <ul id="navbar">
+          <li class="first">
+            <a href="#profile" id="profile-link"> </a>
+          </li>
+          <hr />
+          <li>
+            <a href="#about"
+              ><i class="fa fa-user logo"></i> <span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="#Project"
+              ><i class="fa fa-file-text logo"></i><span>Project</span></a
+            >
+          </li>
+          <li>
+            <a href="#Education"
+              ><i class="fa fa-graduation-cap logo"></i
+              ><span>Education</span></a
+            >
+          </li>
+          <li>
+            <a href="#Contact"
+              ><i class="fa fa-envelope logo"></i><span>Contact</span></a
+            >
+          </li>
+          <li>
+            <a href="./protfolio.img/Modern_Simple_CV.pdf" target="_blank"
+              ><i class="fa fa-folder logo"></i> <span>Resume</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="profile">
+        <p id="profile-l1">
+          HI, <span class="name">I AM Gunjan choudhary</span>
+        </p>
+        <p class="text">A <span id="text-changer"></span></p>
+        <h2>Welcome to My Portfolio</h2>
+        <h6>I'm learner in web development.</h6>
+        <p>
+          <a href="#about"><button>READ MORE</button></a>
+          <a href="#Contact"><button>CONTACT ME</button></a>
+        </p>
+      </section>
+      <section id="about">
+        <h1>ABOUT</h1>
+
+        <ul class="about" style="list-style: none">
+          <li>I am learning coding</li>
+          <li>
+            I enjoy problem-solving and coding. Always strive to bring 100% to
+            the work I do.
+          </li>
+          <li>I want to become a frontend developer.</li>
+          <li>
+            I've always been captivated by the intersection of design and
+            technology, which led me to delve into the world of frontend
+            development.
+          </li>
+          <li>
+            From crafting pixel-perfect layouts to bringing interactive user
+            interfaces to life, I'm eager to master the art and science of
+            frontend development.
+          </li>
+        </ul>
+
+        <ul class="about">
+          <h4>Skills--</h4>
+          <li><b>Languages:</b> JavaScript, CSS, HTML/CSS</li>
+          <li><b>Frameworks:</b> Node.js</li>
+          <li><b>Tools & Technologies:</b> Git</li>
+        </ul>
+      </section>
+      <section id="Project">
+        <h1>PROJECT</h1>
+        <div class="container">
+          <!-- Content here -->
+          <div class="row row-cols-1 row-cols-md-2 g-5 p-5">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./protfolio.img/david-pisnoy-46juD4zY1XA-unsplash.jpg"
+                  class="card-img-top"
+                  alt="bg-color"
+                  height="250rem "
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Background-Color-Switcher</h5>
+
+                  <ul>
+                    <li>Tools: HTML, CSS,js</li>
+                    <li>
+                      We have a button (Change Color) that triggers the
+                      background color change when clicked.
+                    </li>
+                    <li>
+                      JavaScript generates a random hexadecimal color code and
+                      sets it as the background color of the body element.
+                    </li>
+                  </ul>
+                  <a
+                    href="https://github.com/gunnuchoudhary/bg-color-changer "
+                    target="_blank"
+                    ><button
+                      class="btn btn-secondary"
+                      title="SOURCE CODE"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-github"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+                  <a
+                    href="https://gunnuchoudhary.github.io/bg-color-changer/"
+                    target="_blank"
+                    ><button
+                      class="btn btn-secondary"
+                      title="visit site"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-external-link"
+                        style="font-size: 36px"
+                      ></i>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./protfolio.img/premium_photo-1677109899683-9d449c66d9e8.avif"
+                  class="card-img-top"
+                  height="250rem "
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">BMI Calculator</h5>
+
+                  <ul>
+                    <li>Tools: HTML, CSS,js</li>
+                    <li>
+                      Integrated BMI calculation logic based on standard
+                      formulas to accurately compute BMI value.
+                    </li>
+                    <li>
+                      Implemented validation checks to ensure user inputs were
+                      within acceptable ranges.
+                    </li>
+                  </ul>
+
+                  <a
+                    href="https://github.com/gunnuchoudhary/bmi-calculator"
+                    target="_blank"
+                    ><button
+                      class="btn btn-secondary"
+                      title="SOURCE CODE"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-github"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+                  <a
+                    href="https://gunnuchoudhary.github.io/bmi-calculator/"
+                    target="_blank"
+                    ><button
+                      class="btn btn-secondary"
+                      title="visit site"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-external-link"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./protfolio.img/photo-1676042357168-f096fbfa5022.avif"
+                  class="card-img-top"
+                  alt="..."
+                  height="250rem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">TODO-List</h5>
+
+                  <ul>
+                    <li>Tools: HTML, CSS,js</li>
+                    <li>
+                      External CSS styles are applied to enhance the visual
+                      appearance of the todo list interface.
+                    </li>
+                    <li>
+                      JavaScript functions handle the logic for adding, editing,
+                      and deleting tasks.
+                    </li>
+                  </ul>
+                  <a
+                    href="https://github.com/gunnuchoudhary/todolist"
+                    target="_blank"
+                    ><button
+                      class="btn btn-secondary"
+                      title="SOURCE CODE"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-github"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+                  <a
+                    href="https://gunnuchoudhary.github.io/todolist/"
+                    target="_blank"
+                    ><button
+                      class="btn btn-secondary"
+                      title="visit site"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-external-link"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./protfolio.img/photo-1503328427499-d92d1ac3d174.avif"
+                  class="card-img-top"
+                  alt="..."
+                  height="250rem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Digital-watch</h5>
+
+                  <ul>
+                    <li>Tools: HTML, CSS,js</li>
+                    <li>
+                      CSS styles are applied to the digital watch element to
+                      make it visually appealing.
+                    </li>
+                    <li>
+                      The JavaScript file contains a function
+                      updateDigitalWatch() that retrieves the current time and
+                      updates the content of the digital watch element every
+                      second using setInterval().
+                    </li>
+                  </ul>
+                  <a
+                    href="https://github.com/gunnuchoudhary/digital_clock"
+                    target="_blank"
+                  >
+                    <button
+                      class="btn btn-secondary"
+                      title="SOURCE CODE"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-github"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+
+                  <a
+                    href="https://gunnuchoudhary.github.io/digital_clock/"
+                    target="_blank"
+                    ><button
+                      class="btn btn-secondary"
+                      title="visit site"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-external-link"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./protfolio.img/e-comm.png"
+                  class="card-img-top"
+                  alt="..."
+                  height="250rem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">E-Commerce</h5>
+
+                  <ul class="fs-6">
+                    <li>Tools: HTML, CSS,Js,React-js,bootstrap</li>
+                    <li>
+                      Developed a React e-commerce application with routing
+                      using react-router-dom.
+                    </li>
+                    <li>Integrated multiple APIs to fetch product data.</li>
+                    <li>
+                      Implemented filtering functionality for products based on
+                      categories.
+                    </li>
+                    <li>Utilized local storage for cart management.</li>
+                    <li>Designed responsive UI using Bootstrap classes.</li>
+                  </ul>
+                  <a
+                    href="https://github.com/gunnuchoudhary/e-commerce-app"
+                    target="_blank"
+                  >
+                    <button
+                      class="btn btn-secondary"
+                      title="SOURCE CODE"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-github"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+
+                  <a
+                    href="https://gunnuchoudhary.github.io/e-commerce-app/"
+                    target="_blank"
+                    ><button
+                      class="btn btn-secondary"
+                      title="visit site"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-external-link"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./protfolio.img/netflix.app.png"
+                  class="card-img-top"
+                  alt="..."
+                  height="250rem"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Netflix-App</h5>
+
+                  <ul class="fs-6">
+                    <li>Tools: HTML, CSS,JS,React-js,Bootstrap</li>
+                    <li>
+                      Developed React components for displaying movies and TV
+                      shows fetched from the TMDB API.
+                    </li>
+                    <li>
+                      Implemented fetching of data using Axios and useEffect
+                      hook.
+                    </li>
+                    <li>
+                      Designed responsive UI components for displaying banners
+                      and rows of movie/TV show posters.
+                    </li>
+                    <li>
+                      Integrated navigation bar (Header) for easy navigation
+                      between different sections of the application.
+                    </li>
+                  </ul>
+                  <a
+                    href="https://github.com/gunnuchoudhary/netflix.app"
+                    target="_blank"
+                  >
+                    <button
+                      class="btn btn-secondary"
+                      title="SOURCE CODE"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-github"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+
+                  <a
+                    href="https://gunnuchoudhary.github.io/netflix.app/"
+                    target="_blank"
+                    ><button
+                      class="btn btn-secondary"
+                      title="visit site"
+                      data-bs-placement="top"
+                      data-bs-toggle="tooltip"
+                    >
+                      <i
+                        class="fa fa-external-link"
+                        style="font-size: 36px"
+                      ></i></button
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Education">
+        <h1>EDUCATION</h1>
+        <div class="container">
+          <div class="card">
+            <div class="card-body d-flex">
+              <img src="./protfolio.img/" width="200px" alt />
+              <ul class="pt-5">
+                <li><b>University:</b>Rajasthan Technical University, Kota</li>
+                <li>
+                  <b>College:</b>Northern Institute of Engineering Technical
+                  Campus College in Baldeobas, Rajasthan
+                </li>
+                <li>
+                  <p class="card-text"><b>Degree:</b>B Tech</p>
+                </li>
+                <li>
+                  <p class="card-text"><b>year:</b>2015 - 2019</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="Contact">
+        <h1>CONTACT</h1>
+        <div class="container">
+          <ul>
+            <li>
+              <h2><i class="fa fa-phone"></i>7357901958</h2>
+            </li>
+            <li><i class="fa fa-envelope"></i>gunjan19feb99@gmail.com</li>
+            <li>
+              <i class="fa fa-github"></i
+              ><a href="https://github.com/gunnuchoudhary" target="_blank"
+                >github.com/gunnuchoudhary</a
+              >
+            </li>
+            <li>
+              <i class="fa fa-linkedin"></i
+              ><a href="https://www.linkedin.com/ " target="_blank"
+                >gunjan-choudhary-2578022b4/</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="./index.js"></script>
+</html>
